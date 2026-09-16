@@ -1,3 +1,4 @@
+
 class Mascota {
     constructor(nombre, tipo, color) {
         this.nombre = nombre;
@@ -5,7 +6,7 @@ class Mascota {
         this.color = color;
     }
 
-    
+
     saludar() {
         return "Hola, soy " + this.nombre + ", un " + this.tipo + " de color " + this.color + ".";
     }
@@ -13,7 +14,9 @@ class Mascota {
 
 
 const martin = new Mascota("Martin", "zorro", "rojo");
-
+const pepe = new Mascota("pepe", "alien", "azul")
 
 document.getElementById("titulo").innerText = martin.nombre;
 document.getElementById("descripcion").innerText = martin.presentarse();
+document.getElementById("titulo").innerText = pepe.nombre;
+document.getElementById("descripcion").innerText = pepe.presentarse();
