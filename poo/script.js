@@ -1,7 +1,7 @@
 class Mascota {
-    constructor(nombre, especie, color) {
+    constructor(nombre, tipo, color) {
         this.nombre = nombre;
-        this.tipo = especie;
+        this.tipo = tipo;
         this.color = color;
     }
 
