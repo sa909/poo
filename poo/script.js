@@ -1,13 +1,13 @@
 class Mascota {
     constructor(nombre, especie, color) {
         this.nombre = nombre;
-        this.especie = especie;
+        this.tipo = especie;
         this.color = color;
     }
 
     
     presentarse() {
-        return "Hola, soy " + this.nombre + ", un " + this.especie + " de color " + this.color + ".";
+        return "Hola, soy " + this.nombre + ", un " + this.tipo + " de color " + this.color + ".";
     }
 }
 
