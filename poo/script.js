@@ -6,7 +6,7 @@ class Mascota {
     }
 
     
-    presentarse() {
+    saludar() {
         return "Hola, soy " + this.nombre + ", un " + this.tipo + " de color " + this.color + ".";
     }
 }
